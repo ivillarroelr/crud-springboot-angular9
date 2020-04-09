@@ -1,12 +1,19 @@
-<div style="text-align:center">
-  <h1>
-    ivillarroelr @ CRUD 
-  </h1>
-  <img width="300" alt="Angular logo" src="https://miro.medium.com/max/785/1*HW9J6dSI3qVOBclvKEc5yQ.png">
-</div>
+
 <div class="container">
-  <button (click)="Listar()" class="btn btn-warning">Listar</button>
-  <button (click)="Nuevo()" class="btn btn-warning" style="margin-left: 10px;">Nuevo</button>
+  <div class="jumbotron bg-dark text-white"  style="background-color: rgb(234, 255, 234); opacity: 0.9;">
+    <h1 class="display-4" style="text-align:center">ivillarroel @ CRUD </h1>
+    <p class="lead text-center">DEMO CRUD (Create, read, update and delete) utilizando Spring Framework y Angular JS </p>
+    <p class="text-center"><a href="http://github.com/ivanvillarroelr">Github</a></p>
+    <hr class="my-4">
+    <div class="container text-center">
+      <img width="300"  alt="Angular logo" src="https://miro.medium.com/max/785/1*HW9J6dSI3qVOBclvKEc5yQ.png" style="margin-bottom: 20px;">
+      <div style="margin-bottom: 35px;">
+        <h4 class="text-center">Controles</h4>
+        <button (click)="Listar()" class="btn btn-md btn-success">Listar</button>
+        <button (click)="Nuevo()" class="btn btn-md btn-success" style="margin-left: 10px;">Nuevo</button>
+      </div>
+    </div>
+    <router-outlet></router-outlet>
+  </div>
 </div>
 
-<router-outlet></router-outlet>
