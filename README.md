@@ -16,7 +16,7 @@ NodeJS Version: 12.16.1 (Requerido por Angular)
 Angular Version: 9.1.1
 Java: 1.8.0_241; Java HotSpot(TM) 64-Bit Server VM 25.241-b07
 Spring Version: 2.2.6 (Utilizando https://start.spring.io/ Spring Initializr) 
-Servidor de Aplicación back-end: TomCat incluido en NetBeans IDE 11.3
+Servidor de Aplicación back-end: TomCat embebido.
 Servidor Http: Versión de desarrollo de Angular para testing. 
 System: Windows 10 version 10.0 running on amd64; Cp1252; es_CL (nb)
 ```
@@ -40,7 +40,7 @@ Una vez la aplicación Angular haya compilado e indique:
 Se podrá continuar con la instalación. 
 
 
-2) Iniciar el proyecto back-end: Para su agilidad se utilizará el servidor de aplicaciones TomCat que viene incluido en IDE NetBeans, para ello, importaremos el proyecto desde $LOCAL/crud-springboot-angular9/server, dado que el proyecto está empaquetado bajo Maven, puede abrirse también desde Eclipse. Ejecutar y esperar que arranque el servidor. Una vez que en la consola indique 
+2) Iniciar el proyecto back-end: Para su agilidad se utilizará el servidor de aplicaciones TomCat que viene embebido, para ello, importaremos el proyecto desde $LOCAL/crud-springboot-angular9/server, dado que el proyecto está empaquetado bajo Maven, puede abrirse también desde Eclipse. Ejecutar en Netbeans y esperar que arranque el servidor. Una vez que en la consola indique 
 
 ```
 Started ServerApplication in 11.821 seconds (JVM running for 12.509)
