@@ -52,7 +52,7 @@ Se habrá concluido la instalación y podrá ejecutarse ingresando en su browser
 ## Vistas de la aplicación funcionando 
 
 1) Inicio 
-![DEMO-IMAGEN-INICIO](https://github.com/ivanvillarroelr/crud-springboot-angular9/blob/master/SS/principal.png | width=80)
+![DEMO-IMAGEN-INICIO](https://github.com/ivanvillarroelr/crud-springboot-angular9/blob/master/SS/principal.png)
 2) Listar 
 ![DEMO-IMAGEN-LISTAR](https://github.com/ivanvillarroelr/crud-springboot-angular9/blob/master/SS/listar.png)
 3) Nuevo
